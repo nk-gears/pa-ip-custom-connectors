@@ -1,0 +1,35 @@
+{
+  "properties": {
+    "connectionParameters": {
+      "token": {
+        "type": "oauthSetting",
+        "oauthSettings": {
+          "identityProvider": "oauth2",
+          "clientId": "[[CLIENT ID]]",
+          "scopes": [],
+          "redirectMode": "Global",
+          "redirectUrl": "https://global.consent.azure-apim.net/redirect",
+          "properties": {
+            "IsFirstParty": "False",
+            "IsOnbehalfofLoginSupported": false
+          },
+          "customParameters": {
+            "authorizationUrl": {
+              "value": ""
+            },
+            "tokenUrl": {
+              "value": ""
+            },
+            "refreshUrl": {
+              "value": ""
+            }
+          }
+        }
+      }
+    },
+    "iconBrandColor": "#da3b01",
+    "capabilities": [],
+    "publisher": "",
+    "stackOwner": ""
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@nk-gears/pucc-cli": "^0.0.2"
+  }
+}
